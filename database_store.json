@@ -1,0 +1,179 @@
+{
+  "applications": [
+    {
+      "id": "APP-84920482",
+      "personalInfo": {
+        "firstName": "Sarah",
+        "lastName": "Jenkins",
+        "email": "sarah.j@example.com",
+        "phone": "(555) 123-4567",
+        "dob": "1992-04-12",
+        "ssn": "***-**-6789"
+      },
+      "currentAddress": {
+        "street": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704",
+        "country": "United States"
+      },
+      "employment": {
+        "status": "Employed",
+        "employerName": "Springfield General Hospital",
+        "employerPhone": "(555) 987-6543",
+        "monthlyIncome": "6200",
+        "occupation": "Registered Nurse",
+        "length": "3 Years, 2 Months"
+      },
+      "emergencyContact": {
+        "name": "Mark Jenkins",
+        "relationship": "Spouse",
+        "phone": "(555) 234-5678",
+        "email": "mark.j@example.com"
+      },
+      "identity": {
+        "idType": "Driver License",
+        "fileName": "sarah_license_placeholder.png",
+        "fileUrl": "/uploads/sample-license.png",
+        "fileSize": "1.2 MB"
+      },
+      "payment": {
+        "amount": 1,
+        "cardholderName": "Sarah Jenkins",
+        "cardNumber": "**** **** **** 4242",
+        "expiry": "12/28",
+        "cvv": "***",
+        "paymentStatus": "Paid",
+        "refundStatus": "None",
+        "transactionId": "TXN-93820482",
+        "timestamp": "2026-07-24T04:14:54.180Z"
+      },
+      "status": "Pending",
+      "createdAt": "2026-07-24T04:14:54.181Z",
+      "updatedAt": "2026-07-24T04:14:54.181Z",
+      "softDeleted": false
+    },
+    {
+      "id": "APP-10293847",
+      "personalInfo": {
+        "firstName": "Michael",
+        "lastName": "Chen",
+        "email": "mchen.tech@example.com",
+        "phone": "(555) 456-7890",
+        "dob": "1988-11-23",
+        "ssn": "***-**-1234"
+      },
+      "currentAddress": {
+        "street": "120 San Francisco Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94103",
+        "country": "United States"
+      },
+      "employment": {
+        "status": "Employed",
+        "employerName": "Pixel Tech Solutions Inc",
+        "employerPhone": "(555) 321-4567",
+        "monthlyIncome": "10500",
+        "occupation": "Software Engineer",
+        "length": "5 Years"
+      },
+      "emergencyContact": {
+        "name": "Linda Chen",
+        "relationship": "Mother",
+        "phone": "(555) 654-3210",
+        "email": "linda.chen@example.com"
+      },
+      "identity": {
+        "idType": "Passport",
+        "fileName": "michael_passport.jpg",
+        "fileUrl": "/uploads/sample-passport.jpg",
+        "fileSize": "2.4 MB"
+      },
+      "payment": {
+        "amount": 1,
+        "cardholderName": "Michael Chen",
+        "cardNumber": "**** **** **** 1111",
+        "expiry": "06/29",
+        "cvv": "***",
+        "paymentStatus": "Paid",
+        "refundStatus": "None",
+        "transactionId": "TXN-10294829",
+        "timestamp": "2026-07-25T04:14:54.181Z"
+      },
+      "status": "Approved",
+      "createdAt": "2026-07-25T04:14:54.181Z",
+      "updatedAt": "2026-07-25T05:14:54.181Z",
+      "softDeleted": false
+    }
+  ],
+  "settings": {
+    "landingPage": {
+      "logo": "🟢 SecurityFirst",
+      "title": "Rental Application Form",
+      "heroHeading": "Rental Application Form",
+      "heroSubheading": "Complete your rental application securely.",
+      "applyButtonText": "Apply Now",
+      "footerPrivacy": "Privacy Policy",
+      "footerTerms": "Terms of Service",
+      "footerContact": "Contact Us",
+      "footerCopyright": "© 2026 Rental Application Portal. All rights reserved."
+    },
+    "applicationFee": 1,
+    "successMessage": {
+      "heading": "Application Submitted Successfully",
+      "message": "Thank you. Your application has been received. Our administrator will review it shortly.",
+      "buttonText": "Return Home"
+    },
+    "emailTemplates": {
+      "submitted": "Dear {{firstName}},\n\nYour rental application has been successfully received (Ref: {{id}}). We are currently reviewing your details.\n\nBest regards,\nRental Team",
+      "approved": "Dear {{firstName}},\n\nGreat news! Your rental application (Ref: {{id}}) has been APPROVED. We will contact you shortly with the lease details.\n\nBest regards,\nRental Team",
+      "rejected": "Dear {{firstName}},\n\nWe regret to inform you that your rental application (Ref: {{id}}) was not accepted at this time. Thank you for your interest.\n\nBest regards,\nRental Team",
+      "paymentReceived": "Dear {{firstName}},\n\nThank you for your payment of ${{amount}} for your rental application (Ref: {{id}}). Your receipt transaction ID is {{transactionId}}.\n\nBest regards,\nRental Team"
+    },
+    "smsTemplates": {
+      "submitted": "Your application {{id}} has been received! We are reviewing it. Fee of ${{amount}} paid.",
+      "statusChanged": "Your application {{id}} status has been updated to {{status}}."
+    },
+    "fieldLabels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "dob": "Date of Birth",
+      "ssn": "Social Security Number (SSN)"
+    }
+  },
+  "auditLogs": [
+    {
+      "userId": "usr-1",
+      "username": "apartment.comofficial@gmail.com",
+      "role": "Admin",
+      "action": "Login Success",
+      "details": "Admin user logged in via secure email & password verification.",
+      "ip": "127.0.0.1",
+      "id": "log-i6j7wnf2q",
+      "timestamp": "2026-07-25T16:15:52.424Z"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-07-24T00:14:54.181Z",
+      "userId": "usr-1",
+      "username": "apartment.comofficial@gmail.com",
+      "role": "Admin",
+      "action": "System Init",
+      "details": "Rental Application Portal database initialized with default configurations.",
+      "ip": "127.0.0.1"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1",
+      "username": "apartment.comofficial@gmail.com",
+      "role": "Admin",
+      "name": "System Administrator"
+    }
+  ],
+  "chatMessages": [],
+  "contactMessages": []
+}

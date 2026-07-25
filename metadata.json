@@ -1,0 +1,6 @@
+{
+  "name": "Rental Application Form",
+  "description": "A secure, modern, and production-ready system for collecting and managing rental applications with a secure content-managed admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
