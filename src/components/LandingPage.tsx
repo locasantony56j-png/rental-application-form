@@ -31,7 +31,7 @@ export default function LandingPage({
       <header className="border-b border-amber-500/10 py-4 px-6 md:px-12 flex justify-between items-center bg-[#FCFAF7]/95 sticky top-0 z-50 backdrop-blur-md shadow-2xs" id="navbar">
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} id="logo-container">
           <img 
-            src="/src/assets/images/app_logo_no_text_1784304357219.jpg" 
+            src="/images/app_logo_no_text_1784304357219.jpg" 
             alt="Logo" 
             className="w-9 h-9 object-cover rounded-xl border border-amber-500/30 shadow-xs"
             referrerPolicy="no-referrer"
@@ -72,7 +72,7 @@ export default function LandingPage({
             {/* Elegant Golden Brand Logo */}
             <div className="flex flex-col items-center animate-fade-in" id="hero-logo-wrapper">
               <img 
-                src="/src/assets/images/app_logo_no_text_1784304357219.jpg" 
+                src="/images/app_logo_no_text_1784304357219.jpg" 
                 alt="Rental Application Gold Logo" 
                 className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl shadow-xl border-2 border-amber-500/30 object-cover"
                 referrerPolicy="no-referrer"
@@ -148,7 +148,7 @@ export default function LandingPage({
             {/* Logo */}
             <div className="flex items-center space-x-3.5" id="footer-logo">
               <img 
-                src="/src/assets/images/app_logo_no_text_1784304357219.jpg" 
+                src="/images/app_logo_no_text_1784304357219.jpg" 
                 alt="Logo" 
                 className="w-7 h-7 object-cover rounded-lg border border-amber-500/20 shadow-xs"
                 referrerPolicy="no-referrer"

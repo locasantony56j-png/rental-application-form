@@ -17,7 +17,7 @@
 
 /* Custom prints layout styling */
 @media print {
-  #navbar, #admin-header, #admin-sidebar, #apps-list-header, #apps-filters-toolbar, #btn-group-*, .stepper-controls-row {
+  #navbar, #admin-header, #admin-sidebar, #apps-list-header, #apps-filters-toolbar, [id^="btn-group-"], .stepper-controls-row {
     display: none !important;
   }
   body {

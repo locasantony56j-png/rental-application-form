@@ -432,7 +432,7 @@ export default function ApplicationForm({ settings, onCancel, onSubmitSuccess, p
       {/* BRAND LOGO ON APPLICATION FORM */}
       <div className="flex flex-col items-center mb-6 relative z-10" id="form-logo-box">
         <img 
-          src="/src/assets/images/app_logo_no_text_1784304357219.jpg" 
+          src="/images/app_logo_no_text_1784304357219.jpg" 
           alt="Rental Application Gold Logo" 
           className="w-16 h-16 sm:w-20 sm:h-20 rounded-3xl shadow-lg border border-amber-500/30 object-cover"
           referrerPolicy="no-referrer"
