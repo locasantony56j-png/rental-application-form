@@ -202,7 +202,7 @@ export default function LandingPage({
                 className="text-[10px] font-bold text-emerald-100/40 hover:text-amber-400 tracking-widest uppercase transition-colors duration-150 cursor-pointer bg-transparent border-none"
                 id="btn-footer-login"
               >
-                Login
+                Subscribe
               </button>
             </div>
             <p className="text-[10px] font-bold text-emerald-100/40 tracking-widest uppercase order-1 sm:order-2 w-full sm:w-auto text-center sm:text-right" id="footer-copyright-text">
